@@ -1,0 +1,6 @@
+@media (max-height: 768px) {
+    .main__container{
+        margin-top: 12vh;
+        margin-bottom: 34.2vh;
+    }
+}
