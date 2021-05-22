@@ -147,7 +147,7 @@ a img {
     margin-right: 20px;
 }
 .footer__nav-right a:link{
-    color: black;
+    color: gray;
 }
 .footer__nav-right a:hover{
     text-decoration: underline;
