@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header__container {
+    order: 1;
+}
+.header-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    padding-top: 12px;
+}
+a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+.header-menu a:hover{
+    text-decoration: underline;
+}
+.header-menu a:visited{
+    color: black;
+}
+a img {
+    width: 24px;
+    height: 24px;
+}
+.menu-apps{
+    margin-left: 10px;
+}
+.menu-profile{
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+}
+.main__container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 34.2vh;
+    margin-top: 20vh;
+    align-items: center;
+    order: 2;
+}
+.main-logo {
+    margin-bottom: 30px;
+}
+.main-input{
+    display: flex;
+    align-items: center;
+    border: solid rgb(212, 212, 212) 1px;
+    border-radius: 25px;
+    padding: 0 15px;
+}
+.search{
+    opacity: 0.5;
+    height: 17px;
+    width: 17px;
+}
+.main-input input{
+    height: 45px;
+    width: 500px;
+    border-radius: 50px;
+    border:none;
+    font-size: 1.6rem;
+    padding-left: 18px;
+}
+.main-input input:focus{
+    outline: none;  
+}
+.main-buttons{
+    margin-top: 35px;
+}
+.main-buttons button{
+    margin: 0 5px;
+    height: 36px;
+    padding: 0 15px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.030);
+    font-size: 1.4rem;
+}
+.main-footer{
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+.main-footer a {
+    margin-left: 10px;
+}
+.footer{
+    order: 3;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+}
+.footer p {
+    font-size: 1.5rem;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    order: 1;
+    color: gray;
+}
+.separator{
+    background-color: rgb(212, 212, 212);
+    width: 100%;
+    height: 0.1px;
+    order: 2;
+}
+.footer__navs{
+    color: gray;
+    display: flex;
+    font-size: 1.4rem;
+    flex-direction: row;
+    order: 3;
+    justify-content: space-between;
+    padding: 15px 0;
+    text-decoration: none;
+}
+.footer__nav-left{
+    margin-left: 15px;
+}
+.footer__nav-left a:hover{
+    text-decoration: underline;
+}
+.footer__nav-left a:visited{
+    color: gray;
+}
+.footer__nav-right{
+    margin-right: 20px;
+}
+.footer__nav-right a:hover{
+    text-decoration: underline;
+}
+.footer__nav-right a:visited{
+    color: gray;
+}
