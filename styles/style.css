@@ -33,6 +33,9 @@ a {
 .header-menu a:visited{
     color: black;
 }
+a:link{
+    text-decoration: none;
+}
 a img {
     width: 24px;
     height: 24px;
