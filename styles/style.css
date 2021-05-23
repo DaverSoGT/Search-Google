@@ -101,6 +101,7 @@ a img {
     background-color: rgba(0, 0, 0, 0.030);
     font-size: 1.4rem;
     cursor: pointer;
+    border-radius: 3px;
 }
 .main-buttons button:hover{
     border: 1px solid #c6c6c6;
