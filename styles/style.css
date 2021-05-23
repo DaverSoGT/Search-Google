@@ -66,6 +66,14 @@ a img {
     border-radius: 25px;
     padding: 0 15px;
 }
+.main-input:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+.main-input:focus-within{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
 .search{
     opacity: 0.5;
     height: 17px;
@@ -92,6 +100,12 @@ a img {
     border: none;
     background-color: rgba(0, 0, 0, 0.030);
     font-size: 1.4rem;
+    cursor: pointer;
+}
+.main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #969696;
+    color: #222;
 }
 .main-footer{
     margin-top: 30px;
@@ -106,6 +120,8 @@ a img {
     width: 100%;
     background-color: rgb(243, 243, 243);
     display: flex;
+    bottom: 0;
+    position: absolute;
 }
 .footer p {
     font-size: 1.5rem;
